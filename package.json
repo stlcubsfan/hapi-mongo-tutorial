@@ -1,0 +1,26 @@
+{
+  "name": "hapi-mongo-tutorial",
+  "version": "1.0.0",
+  "description": "Simple Hapi REST API over a mongo collection",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stlcubsfan/hapi-mongo-tutorial.git"
+  },
+  "author": "stlcubsfan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stlcubsfan/hapi-mongo-tutorial/issues"
+  },
+  "homepage": "https://github.com/stlcubsfan/hapi-mongo-tutorial#readme",
+  "dependencies": {
+    "boom": "^3.2.2",
+    "hapi": "^13.4.1",
+    "joi": "^8.4.2",
+    "mongojs": "^2.4.0",
+    "node-uuid": "^1.4.7"
+  }
+}
